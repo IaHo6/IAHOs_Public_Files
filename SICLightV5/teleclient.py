@@ -239,7 +239,7 @@ def action(msg):
     if flavour == 'callback_query':
         telegram_bot.answerCallbackQuery(msg['id'], command)
         
-telegram_bot = telepot.Bot('6316661559:AAFLw-T7CzyDAmWkNu4gbfi3Pa-yfOb0Oy0')
+telegram_bot = telepot.Bot('TOLKEN')
 print(telegram_bot.getMe())
 
 MessageLoop(telegram_bot, action).run_as_thread()
